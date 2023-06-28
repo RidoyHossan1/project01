@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined');
+
+body{
+    background-color:beige;
+    background-image: url(./assests/01.jpg);
+    background-size: 1920px 960px;
+    background-repeat: no-repeat;
+}
+
+h1{
+    color: rgb(255, 0, 0);
+    text-align: center;
+}
+
+.p1{
+    color: rgb(47, 0, 255);
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 12px;
+    border-color: aqua;
+    padding: 10px;
+}
+
+#p2{
+    color: rgb(255, 0, 149);
+    border-width: 8px;
+    border-style: outset;
+    border-color: azure;
+    padding: 10px;
+}
+
+.p3{
+    border: 3px solid ghostwhite;
+    padding: 10px;
+    text-transform: capitalize;
+    text-indent: 50px;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    line-height: 30px;
+}
+
+.div1{
+    width: 250px;
+    height: 250px;
+    background-color: aqua;
+    border: 5px solid green;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.p4{
+    text-align: center;
+    margin: 75px 20px;
+    color: black;
+
+}
+
+.p5{
+    color: rgb(255, 166, 0);
+    margin: 50px;
+    border: 5px solid red;
+    padding: 5px;
+    outline-width: 10px;
+    outline-style: solid;
+    outline-color: green;
+    outline-offset: 5px;
+
+}
+
+.p6{
+    font-family:'Cinzel Decorative', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    word-spacing: 5px;
+    color: rgb(204, 0, 255);
+    border-width: 5px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: whitesmoke;
+    padding: 10px;
+
+}
+
+#icn1{
+     height: 100px;
+     width: auto;
+}
+
+.material-symbols-outlined{
+    font-size: 100px;
+    color: blue;
+}
+
+a{
+    color: blueviolet;
+    font-size: 50px;
+    text-decoration: none;
+    background-color: aquamarine;
+    padding: 5px 10px;
+    border: 5px solid;
+}
+.diva1{
+    text-align: center;
+}
+
+a:hover{
+    color: white;
+    background-color: black;
+}
+
+a:active{
+    color: red;
+}
+
+/* This is for visited
+a:visited{
+    color: silver;
+    background-color: blue;
+} */
+
+ul{
+    list-style: square inside url(./assests/star.png);
+}
+

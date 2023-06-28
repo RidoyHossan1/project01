@@ -1,0 +1,148 @@
+.p1{
+    border: 3px solid red;
+    padding: 0% 10px;
+    width: 400px;
+    margin: auto;
+}
+
+.p2{
+    border: 3px solid green;
+    padding: 0% 10px;
+    max-width: 400px;
+    margin: auto;
+}
+
+.p3{
+    width: 350px;
+    height: 150px;
+    border: 5px solid blue;
+    overflow: auto;
+    margin: auto;
+}
+
+.box1{
+    height: 375px;
+    width: 625px;
+    background-color: green;
+    position: relative;
+    margin: auto;
+}
+
+.box2{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 50%;
+    margin: auto;
+
+}
+
+.name1{
+    border: 4px solid tomato;
+    padding: 5px;
+    margin-top: 10px;
+    width: 250px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+#pl1{
+    padding-bottom: 100px;
+}
+
+h3{
+    position: sticky;
+    top: 0%;
+}
+
+.fixd1{
+    position: fixed;
+    bottom: 0%;
+    right: 0%;
+    font-size: 20px;
+}
+
+.img1{
+    width: 600px;
+    height: 250px;
+    float: left;
+}
+
+#pp1{
+    clear: left;
+}
+body{
+    
+}
+
+#box{
+    float: left;
+}
+
+.bbox1{
+    width: 200px;
+    height: 100px;
+    background-color: black;
+}
+
+.bbox2{
+    width: 200px;
+    height: 100px;
+    background-color: red;
+}
+
+.bbox3{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(191, 0, 255);
+}
+
+.bbox4{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(30, 255, 0);
+}
+
+.hp2{
+    color: tomato;
+}
+.hp3{
+    color: rgb(0, 0.5, 255);
+}
+
+.boxga1{
+    height: 100px;
+    width: 100px;
+    background: linear-gradient(to left top,red ,green );
+}
+
+.boxga2{
+    height: 100px;
+    width: 100px;
+    background: radial-gradient(red, green)
+}
+
+.shadow1{
+    text-align: center;
+    font-size: 70px;
+    text-shadow: -7px 5px 10px rgb(44, 255, 234);
+}
+
+.booox img{
+    width: 150px;
+}
+
+.booox{
+    height: 195px;
+    width: 250px;
+    text-align: center;
+    margin: auto;
+    border: 1px solid rgb(0, 0, 0, 0.5);
+    box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.5);
+}
